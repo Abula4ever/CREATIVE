@@ -1,0 +1,76 @@
+/* telefon uchun */
+@media screen and (max-width: 576px){
+    body{
+        background-color: rgb(229, 255, 177);
+    }
+
+    header{
+        width: 100%;
+        background-size: cover;
+    }
+
+
+    .logo{
+        width: 50px;
+        margin-top: 10px;
+    }
+
+      nav , .menu{
+        display: flex;
+        flex-direction: column;
+      }
+      
+
+    .boxes{
+        width: 100%;
+    }
+
+    .blog4{
+        background-color: white;
+    }
+
+      .boxes2{
+        width: 100%;
+    }
+
+    
+
+    input{
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .textarea{
+        width: 100%;
+    }
+
+    button{
+        margin-top: 50px;
+    }
+
+    .tittle2 h1::before{
+        content: 'W';
+        font-size: 200px;
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    } 
+
+    .tittle3 h1::before{
+        content: 'B';
+        position: absolute;
+        top: 0px;
+        left: -100px;
+        
+    }
+}
+
+    
+/* planshet uchun */
+@media (min-width: 577px) and (max-width: 992px){
+
+}
+/* notebook uchun */
+@media (min-width: 993px) and (max-width:1440px) {
+
+}
